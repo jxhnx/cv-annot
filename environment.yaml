@@ -1,0 +1,17 @@
+name: fiftyone
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - pytorch
+  - torchvision
+  - pip:
+    - fiftyone
+    - datumaro
+    - jupyterlab
+    - ipywidgets
+    - tqdm
+    - yacs
+    - python-dotenv
+    - pycocotools

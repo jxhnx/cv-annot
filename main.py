@@ -1,4 +1,4 @@
-"""Launch main application with dataset.
+"""Launch fiftyone with dataset.
 """
 
 from configs import cfg  # import first, set env variables for fiftyone

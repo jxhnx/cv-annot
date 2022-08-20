@@ -12,6 +12,13 @@ _C = CN()
 # Set environment variables
 os.environ['FIFTYONE_CVAT_USERNAME'] = os.getenv('FIFTYONE_CVAT_USERNAME')
 os.environ['FIFTYONE_CVAT_PASSWORD'] = os.getenv('FIFTYONE_CVAT_PASSWORD')
+# ... to cfg
+_C.CRED = CN()
+_C.CRED.FIFTYONE_CVAT_USERNAME = os.getenv('FIFTYONE_CVAT_USERNAME')
+_C.CRED.FIFTYONE_CVAT_PASSWORD = os.getenv('FIFTYONE_CVAT_PASSWORD')
+_C.CRED.FLICKR_KEY = os.getenv('FLICKR_KEY')
+_C.CRED.FLICKR_SECRET = os.getenv('FLICKR_SECRET')
+
 
 # Datasets
 _C.DATASET = CN()

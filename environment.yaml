@@ -8,10 +8,11 @@ dependencies:
   - torchvision
   - pip:
     - fiftyone
-    - datumaro
+    - datumaro  # dataset conversion
     - jupyterlab
     - ipywidgets
     - tqdm
     - yacs
     - python-dotenv
     - pycocotools
+    - flickrapi  # flickr image retrieval

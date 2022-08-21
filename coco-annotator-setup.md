@@ -22,7 +22,8 @@ Categories can be created manually in the categories tab or be imported through 
 <img src="assets/img/coco_annotator_coco_kp.jpg" alt="" width="250"/>
 
 ### Import the crowd_pose keypoint annotation format
-For some reason, the import through an annotation.json file seems not to work for other formats different from coco. But feel free to test it with the `configs/crowdpose_keypoint_cat.json`. **Note**: crowdpose_keypoint_cat.json uses the "person" category, wich will not be imported if it already exists. After import or creating the category manually, it should look like this:
+- Like for COCO, you can import the crowd_pose annotation format with `configs/crowdpose_keypoint_cat.json`. **Note**: crowdpose_keypoint_cat.json uses the "person" category, which will not be imported if it already exists. If you import both, COCO and crowd_pose, you will have to avoid duplicate categories by renaming one. 
+- After import, the category should look like this (excluding color settings):
 
 <img src="assets/img/coco_annotator_crowd_kp.jpg" alt="" width="250"/>
 

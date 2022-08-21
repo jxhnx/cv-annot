@@ -13,6 +13,6 @@ Paths to datasets can be added/adjusted in configs/default.py.
 ## coco-annotator annotation workflow
 
 Check:
-- [coco-annotator-setup.md](coco-annotator-setup.md) for working with the coco annotator
-- [human_keypoint_annotation.md](human_keypoint_annotation.md) for a keypoint-annotation guideline
+- [coco-annotator-setup.md](docs/coco-annotator-setup.md) for working with the coco annotator
+- [human_keypoint_annotation.md](docs/human_keypoint_annotation.md) for a keypoint-annotation guideline
 

@@ -1,4 +1,11 @@
-# Computer vision annotation workflow
+# Dataset tools & annotation workflow
+
+## Tools
+- Duplicate image finder: search on or more datasets efficiently for duplicate images: [duplicate_image_finder.ipynb](duplicate_image_finder.ipynb)
+  - Logs for COCO, MPII, OCHUman here: [data/logs](data/logs)
+- Annotation to COCO conversion (human keypoint annotations): [Datasets_to_COCO.ipynb](Datasets_to_COCO.ipynb)
+  - MPII, CrowdPose, OCHuman, download here: [data/anno_files](data/anno_files)
+  
 
 ## CVAT-fiftyone annotation workflow
 

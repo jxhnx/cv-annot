@@ -1,0 +1,75 @@
+INFO:
+    num_datasets: 3
+    num_images: 163957
+    num_duplicates_total: 32
+    num_duplicates_self_total: 24
+    num_overlap_total: 8
+    dup_percentage_total: 0.0195
+    dup_percentage_overlap: 0.0049
+
+IMAGE PAIRS:
+    train2017
+        images: 118287
+        duplicates_self: 23
+        duplicates_overlap: 6
+        duplicates_total: 29
+        dup_percentage_self: 0.0194
+        dup_percentage_overlap: 0.0051
+        image_pairs:
+            000000215462.jpg 000000209113.jpg 
+            000000573795.jpg 000000426642.jpg 
+            000000410810.jpg 000000373251.jpg 
+            000000062324.jpg 000000154345.jpg 
+            000000089027.jpg 000000321238.jpg 
+            000000411274.jpg 000000216265.jpg 
+            000000022850.jpg 000000139571.jpg 
+            000000308608.jpg 000000373199.jpg 
+            000000186275.jpg 000000297126.jpg 
+            000000213677.jpg 000000006640.jpg 
+            000000278029.jpg 000000407259.jpg 000000446141.jpg 
+            000000438867.jpg 000000531721.jpg 
+            000000058627.jpg 000000090169.jpg 
+            000000397819.jpg 000000388662.jpg 000000578492.jpg 
+            000000178928.jpg 000000491223.jpg 
+            000000279522.jpg 000000019665.jpg 
+            000000003382.jpg 000000445323.jpg 
+            000000000927.jpg 000000341448.jpg 
+            000000009878.jpg 000000141785.jpg 
+            000000022168.jpg 000000308264.jpg 
+            000000242807.jpg 000000137715.jpg 
+        overlap_image_pairs:
+            train2017-000000495825.jpg test2017-000000374354.jpg 
+            train2017-000000069923.jpg test2017-000000128109.jpg 
+            train2017-000000450993.jpg test2017-000000434012.jpg 
+            train2017-000000546667.jpg test2017-000000153363.jpg 
+            train2017-000000064423.jpg test2017-000000344601.jpg 
+            train2017-000000202658.jpg test2017-000000244440.jpg 
+    val2017
+        images: 5000
+        duplicates_self: 0
+        duplicates_overlap: 2
+        duplicates_total: 2
+        dup_percentage_self: 0.0
+        dup_percentage_overlap: 0.04
+        image_pairs:
+        overlap_image_pairs:
+            val2017-000000262440.jpg test2017-000000261553.jpg 
+            val2017-000000042102.jpg test2017-000000093925.jpg 
+    test2017
+        images: 40670
+        duplicates_self: 1
+        duplicates_overlap: 8
+        duplicates_total: 9
+        dup_percentage_self: 0.0025
+        dup_percentage_overlap: 0.0197
+        image_pairs:
+            000000317483.jpg 000000184494.jpg 
+        overlap_image_pairs:
+            test2017-000000374354.jpg train2017-000000495825.jpg 
+            test2017-000000128109.jpg train2017-000000069923.jpg 
+            test2017-000000434012.jpg train2017-000000450993.jpg 
+            test2017-000000153363.jpg train2017-000000546667.jpg 
+            test2017-000000344601.jpg train2017-000000064423.jpg 
+            test2017-000000244440.jpg train2017-000000202658.jpg 
+            test2017-000000261553.jpg val2017-000000262440.jpg 
+            test2017-000000093925.jpg val2017-000000042102.jpg 

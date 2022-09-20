@@ -3,3 +3,5 @@
 /*/
 # Except this files
 !.gitignore
+!logs
+!anno_files
